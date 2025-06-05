@@ -97,12 +97,22 @@
   background-color: rgb(224, 214, 194);
   margin: 10px 0px 10px 8px;
 }
-.a1 > img {
+.img1{
+    width: 100%;
+    background-color: rgb(224, 214, 194);
+    height: 70%;
+    overflow: hidden;
+    border: 1px;
+    border-radius: 28px;
+    margin: 10px 0px;
+}
+.img1 > img {
   width: 100%;
-  height: 60%;
-  margin: 10px 0px;
-  border: 1px;
-  border-radius: 28px;
+  height: 100%;
+  /* height: 60%; */
+  
+  /* border: 1px;
+  border-radius: 28px; */
 }
 
 .get-start-1 {
@@ -171,18 +181,19 @@
   background-color: rgb(143, 136, 104);
   margin: 10px 0px 10px 8px;
 }
-.a2-second {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(143, 136, 104);
-  /* overflow: hidden; */
+.a2-second{
+    width: 100%;
+    background-color: rgb(143, 136, 104);
+    height: 80%;
+    overflow: hidden;
+    border: 1px;
+    border-radius: 28px;
 }
 .a2-second > img {
-  width: 32vw;
-  height: 35vh;
+  width: 100%;
+  
   /* margin: 10px 0px; */
-  border: 1px;
-  border-radius: 28px;
+  
   /* overflow-y: hidden;
     overflow-x: hidden; */
   transition: transform 0.8s;
@@ -223,11 +234,18 @@
   margin-left: 10px;
   margin-top: 8px;
 }
-.a3 > img {
+.img3{
+    width: 100%;
+    background-color: rgb(151, 108, 84);
+    height: 42%;
+    overflow: hidden;
+    border: 1px;
+    border-radius: 28px;
+    /* margin: 10px 0px;*/
+} 
+.img3 > img {
   width: 100%;
-  height: 45%;
-  border: 1px;
-  border-radius: 28px;
+  /* height: 45%; */
 }
 .a3 > h1 {
   font-weight: 700;
@@ -294,7 +312,7 @@
 }
 .last-flex-x > img {
   border-radius: 50%;
-  width: 30%;
+  width: 37%;
 }
 .a4 > h1 {
   font-weight: 700;
@@ -347,11 +365,11 @@
 }
 
 .a1,
-.a2-second,
 .a3,
 .last-flex-x {
   overflow: hidden;
 }
+
 
 .arrow-1,
 .arrow-2,
@@ -390,4 +408,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
+}
+
+hr{
+    height: 2px;         
+    border: none;  
+    background-color: rgb(111,102,75);
 }
